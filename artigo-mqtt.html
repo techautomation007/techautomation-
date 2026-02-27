@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Protocolo MQTT: Comunicação para IoT Explicada | TechAutomation</title>
+    <style>
+        *{margin:0;padding:0;box-sizing:border-box}
+        body{font-family:Arial,sans-serif;background:#0f172a;color:#f8fafc;line-height:1.6}
+        header{background:#1e293b;padding:1rem;position:fixed;width:100%;top:0}
+        .logo{font-size:1.5rem;font-weight:bold;background:linear-gradient(135deg,#667eea,#764ba2);-webkit-background-clip:text;-webkit-text-fill-color:transparent;text-decoration:none}
+        .container{max-width:800px;margin:100px auto 0;padding:2rem}
+        h1{font-size:2rem;margin-bottom:1rem}
+        .meta{color:#94a3b8;margin-bottom:2rem}
+        .content p{color:#94a3b8;margin-bottom:1.5rem;line-height:1.8}
+        .content h2{color:#3b82f6;margin:2rem 0 1rem}
+        .tag{background:rgba(59,130,246,0.2);color:#3b82f6;padding:0.25rem 0.75rem;border-radius:20px;font-size:0.75rem}
+        footer{background:#1e293b;padding:2rem;text-align:center;color:#94a3b8;margin-top:3rem}
+    </style>
+</head>
+<body>
+    <header>
+        <a href="index.html" class="logo">⚡ TechAutomation</a>
+    </header>
+    <div class="container">
+        <h1>Protocolo MQTT: Comunicação para IoT Explicada</h1>
+        <div class="meta">
+            <span class="tag">Protocolos</span>
+            <span>⏱️ 7 min de leitura</span>
+        </div>
+        <div class="content">
+            <p>O <strong>MQTT</strong> (Message Queuing Telemetry Transport) é o protocolo padrão para comunicação em projetos de Internet das Coisas. Leve e eficiente, foi projetado para dispositivos com pouca capacidade de processamento.</p>
+            
+            <h2>Por que MQTT?</h2>
+            <p>Diferente do HTTP, o MQTT usa pouquíssima banda e bateria. Funciona bem em conexões instáveis, como redes móveis em áreas rurais - perfeito para projetos de automação em Moçambique.</p>
+            
+            <h2>Como Funciona?</h2>
+            <p>O MQTT usa modelo <strong>publicar/assinar</strong>. Dispositivos publicam mensagens em <strong>tópicos</strong> (ex: casa/sala/temperatura) e outros dispositivos assinam esses tópicos para receber os dados.</p>
+            
+            <h2>Broker MQTT</h2>
+            <p>O <strong>broker</strong> é o servidor central que recebe todas as mensagens e as distribui aos assinantes. Brokers populares: <strong>Mosquitto</strong> (gratuito), <strong>HiveMQ</strong> e <strong>CloudMQTT</strong>.</p>
+            
+            <h2>Qualidade de Serviço (QoS)</h2>
+            <p>O MQTT tem 3 níveis de entrega:<br>
+            • QoS 0: Entrega uma vez (sem confirmação)<br>
+            • QoS 1: Entrega pelo menos uma vez<br>
+            • QoS 2: Entrega exatamente uma vez</p>
+            
+            <h2>Conclusão</h2>
+            <p>Aprender MQTT é essencial para qualquer projeto de automação moderno. Combinado com ESP32 e Node-RED, permite criar sistemas profissionais de monitoramento e controle.</p>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2024 TechAutomation</p>
+    </footer>
+</body>
+      </html>
+      
