@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechAutomation - Automação Industrial e Residencial</title>
+    <style>
+        *{margin:0;padding:0;box-sizing:border-box}
+        body{font-family:Arial,sans-serif;background:#0f172a;color:#f8fafc;line-height:1.6}
+        header{background:#1e293b;padding:1rem;position:fixed;width:100%;top:0;z-index:1000}
+        nav{max-width:1200px;margin:0 auto;display:flex;justify-content:space-between;align-items:center}
+        .logo{font-size:1.5rem;font-weight:bold;background:linear-gradient(135deg,#667eea,#764ba2);-webkit-background-clip:text;-webkit-text-fill-color:transparent}
+        .hero{margin-top:80px;padding:4rem 2rem;text-align:center;background:linear-gradient(135deg,#0f172a,#1e293b)}
+        h1{font-size:2.5rem;margin-bottom:1rem}h1 span{color:#3b82f6}
+        p{color:#94a3b8;margin-bottom:2rem;font-size:1.1rem}
+        .btn{display:inline-block;padding:1rem 2rem;background:linear-gradient(135deg,#667eea,#764ba2);color:white;text-decoration:none;border-radius:25px;margin:0.5rem;transition:transform 0.3s}
+        .btn:hover{transform:translateY(-3px)}
+        .section{padding:4rem 2rem;max-width:1200px;margin:0 auto}
+        .section h2{text-align:center;margin-bottom:2rem;font-size:2rem}
+        .cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:1.5rem}
+        .card{background:#1e293b;padding:1.5rem;border-radius:15px;border:1px solid rgba(255,255,255,0.1);transition:all 0.3s}
+        .card:hover{transform:translateY(-5px);border-color:#3b82f6}
+        .card h3{color:#3b82f6;margin-bottom:0.5rem;font-size:1.2rem}
+        .card p{color:#94a3b8}
+        footer{background:#1e293b;padding:2rem;text-align:center;color:#94a3b8;margin-top:3rem}
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">⚡ TechAutomation</div>
+        </nav>
+    </header>
+    
+    <section class="hero">
+        <h1>O Futuro da <span>Automação</span></h1>
+        <p>Portal especializado em automação industrial, residencial e IoT. Guias, tutoriais e reviews para transformar suas ideias em realidade.</p>
+        <a href="#categorias" class="btn">Explorar Conteúdo</a>
+    </section>
+
+    <section class="section" id="categorias">
+        <h2>Áreas de Automação</h2>
+        <div class="cards">
+            <div class="card">
+                <h3>🏭 Industrial</h3>
+                <p>CLPs, sensores, SCADA e controle de processos industriais.</p>
+            </div>
+            <div class="card">
+                <h3>🏠 Residencial</h3>
+                <p>Casa inteligente com Alexa, Google Home e Home Assistant.</p>
+            </div>
+            <div class="card">
+                <h3>📡 IoT</h3>
+                <p>MQTT, Node-RED, ESP8266 e ESP32.</p>
+            </div>
+            <div class="card">
+                <h3>🤖 Robótica</h3>
+                <p>Braços robóticos, drones e ROS.</p>
+            </div>
+            <div class="card">
+                <h3>⚡ Eletrônica</h3>
+                <p>Circuitos, PCB e microcontroladores.</p>
+            </div>
+            <div class="card">
+                <h3>💻 Programação</h3>
+                <p>Ladder, Python e C++ para automação.</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 TechAutomation - Moçambique</p>
+        <p>contato@techautomation.dev</p>
+    </footer>
+</body>
+      </html>
+              
